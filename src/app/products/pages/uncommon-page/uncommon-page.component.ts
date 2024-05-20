@@ -34,4 +34,12 @@ export class UncommonPageComponent {
     this.clients.shift();
   }
 
+
+  //keyvalue
+   public persona = {
+    name:'jose',
+    age:24,
+    address:'Ottawa, canada'
+   }
+
 }
