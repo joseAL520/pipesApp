@@ -16,11 +16,25 @@ export class UncommonPageComponent {
     male: 'invitarlo',
     female: 'invitarla'
   }
-
-
-
   changeClient(){
     this.name = 'melissa';
     this.gender = 'female';
   }
+
+
+  // i18Plurl
+
+  public clients: string[] = ["Alejandro", "Beatriz", "Carlos", "Diana", "Eduardo", "Fernanda", "Gabriel", "Hilda", "Ignacio", "Julia"]
+  public clientsMap = {
+    '=0': 'No hay clientes',
+    '=1':'tenemos un Clinte esperando',
+    'other':'tenemos # clientes esperando'
+
+  }
+
+
+  deleteClient(){
+    this.clients.shift();
+  }
+
 }
