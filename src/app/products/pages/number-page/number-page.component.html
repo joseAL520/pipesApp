@@ -1,1 +1,35 @@
-<p>number-page works!</p>
+
+<p-panel [showHeader]="false">
+    <h1>Pipes Numericos</h1>
+    <p>
+        Pipes incluidos en angular - usualmente en el common Module
+    </p>
+</p-panel>
+
+
+<div class="grid">
+    <p-card class="col-12  text-center" header="Original"> 
+      <strong>porcentaje: </strong> {{ porcetanje }} 
+      <br>
+    <strong>valor:</strong> {{ numberVentas }}   
+    </p-card>
+
+
+    <p-card  class="col-4" header="formato numerico">
+        {{ numberVentas | number }}
+    </p-card>
+
+    <p-card  class="col-4" header="formato de monada">
+       defaul:  {{ numberVentas | currency }}
+       <hr>
+       colombia: {{ numberVentas | currency:'COL' }}
+       <hr>
+       fomato de monda con decimales  {{ numberVentas | currency:'COL':'symbol-narrow':'1.3-3' }}
+        <hr>
+    </p-card>
+
+    <p-card class="col-4" header="formato de porcentaje">
+        {{ porcetanje | percent }}
+     </p-card>
+
+</div>

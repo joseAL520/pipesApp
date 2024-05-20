@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NumberPageComponent {
 
+  public numberVentas: number = 100000000;
+  public porcetanje: number = 0.234123;
+
+
+
 }
