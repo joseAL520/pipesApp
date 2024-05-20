@@ -7,12 +7,12 @@
 </p-panel>
 
 
-<div class="p-grid">
-    <div class="p-col-4">
-        <p-card header="Origiinal"> {{ nameTest }}</p-card>
-        <p-card header="Uppercase"> {{ nameTest | uppercase }}</p-card>
-        <p-card header="LowerCase"> {{ nameTest | lowercase }}</p-card>
-        <p-card header="Titlecase"> {{ nameTest | titlecase}}</p-card>
+<p-card class="col-4 text-center" header="Original"> {{ nameTest }}</p-card>
+<div class="grid">
+    
+    <p-card class="col-4" header="Uppercase"> {{ nameTest | uppercase }}</p-card>
+    <p-card class="col-4" header="LowerCase"> {{ nameTest | lowercase }}</p-card>
+    <p-card class="col-4" header="Titlecase"> {{ nameTest | titlecase}}</p-card>
         
-    </div>
+ 
 </div>
