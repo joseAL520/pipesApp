@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-uncommon-page',
@@ -40,6 +41,8 @@ export class UncommonPageComponent {
     name:'jose',
     age:24,
     address:'Ottawa, canada'
-   }
+  }
 
+  // Async pipe
+  public myObservablTimer = interval(2000)
 }
