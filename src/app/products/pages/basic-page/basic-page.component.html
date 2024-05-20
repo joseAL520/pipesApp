@@ -13,6 +13,43 @@
     <p-card class="col-4" header="Uppercase"> {{ nameTest | uppercase }}</p-card>
     <p-card class="col-4" header="LowerCase"> {{ nameTest | lowercase }}</p-card>
     <p-card class="col-4" header="Titlecase"> {{ nameTest | titlecase}}</p-card>
-        
- 
+
+    <div class="col-5">
+        <p-card header="Date sintaxi"> 
+            <ol>
+                <li> fecha</li>
+                <li> fecha | date</li>
+                <li> fecha | date:'short'</li>
+                <li> fecha | date: 'MMM'</li>
+                <li> fecha | date: 'MMM, dd,yyyy'</li>
+                <hr>
+                 ZONA HORARIA
+                <li> fecha | date: 'long': 'GMT-6'</li>
+                <li> fecha | date: 'long': 'GMT-6'</li>
+            </ol>
+        </p-card>
+    </div>
+
+    <div class="col-7">
+        <p-card header="Date Value"> 
+            <ol>
+                <li> {{ customDate }}</li>
+                <li> {{ customDate | date }}  </li>
+                <li> {{customDate | date:'short' }} </li>
+                <li> {{customDate | date:'MMM' }} </li>
+                <li> {{customDate | date:'MMM, dd,yyyy' }} </li>
+                <hr>
+                ZONA HORARIA
+                <li> {{customDate | date:'long': 'GMT-6'}} </li>
+                <li> {{customDate | date:'long': 'GMT-4'}} </li>
+            </ol>
+        </p-card>
+    </div>
+
 </div>
+
+
+
+    
+    
+

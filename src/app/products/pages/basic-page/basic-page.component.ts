@@ -9,5 +9,6 @@ export class BasicPageComponent {
 
   public nameTest: string = 'JosE aNgel'
 
+  public customDate: Date = new Date();
 
 }
