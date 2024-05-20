@@ -23,7 +23,6 @@ export class UncommonPageComponent {
 
 
   // i18Plurl
-
   public clients: string[] = ["Alejandro", "Beatriz", "Carlos", "Diana", "Eduardo", "Fernanda", "Gabriel", "Hilda", "Ignacio", "Julia"]
   public clientsMap = {
     '=0': 'No hay clientes',
@@ -31,8 +30,6 @@ export class UncommonPageComponent {
     'other':'tenemos # clientes esperando'
 
   }
-
-
   deleteClient(){
     this.clients.shift();
   }
