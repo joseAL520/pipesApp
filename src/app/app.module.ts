@@ -9,6 +9,11 @@ import { SharedModule } from './shared/shared.module';
 import {StyleClassModule} from 'primeng/styleclass';
 
 
+// configuracion del local  de la app
+import localEsCol from '@angular/common/locales/es-CO'
+import { registerLocaleData  } from '@angular/common';
+
+registerLocaleData(localEsCol);
 
 @NgModule({
   declarations: [
