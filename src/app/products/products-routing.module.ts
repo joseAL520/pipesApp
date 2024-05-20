@@ -6,15 +6,11 @@ import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.compo
 
 const routes: Routes = [
   {
-    path:'**',
-    redirectTo:''
-  },
-  {
-    path: '',
+    path:'',
     component: BasicPageComponent
   },
   {
-    path:'number',
+    path:'numbers',
     component:NumberPageComponent
   },
   {
