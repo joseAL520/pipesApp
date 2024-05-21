@@ -45,12 +45,8 @@ export class MenuComponent {
                     {
                         label:'Otro elemento',
                         icon: 'pi pi-cog',
-                        items:[
-                            {
-                                label:'text and Date',
-                                icon: 'pi pi-align-left'
-                            },
-                        ]
+                        routerLink: 'custom'
+                        
                     }
                 ]
             }
