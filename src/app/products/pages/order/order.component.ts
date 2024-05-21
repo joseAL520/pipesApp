@@ -4,4 +4,9 @@ import {  Component } from '@angular/core';
   selector: 'product-page-order',
   templateUrl:'order.component.html',
 })
-export class OrderComponent { }
+export class OrderComponent {
+
+  public itemToolbar: string = ''
+
+
+}
