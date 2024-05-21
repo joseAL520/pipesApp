@@ -26,3 +26,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # pipesApp
+
+
+
+
+se traba todo relacionaado con pon los PiPES DE DE ANGULAR ademas:
+
+1) los pipes 
+2) manejo de la herraminta PRIMENG INSTALLACIIONES ENTRE OTROS
+3) PIPes personalizadados
+
+# seccion del curos de angular de fernado herrera undemy a trabajar:
+
+1) seccion 11: pipesApp - primeNG
+2) seccion 12: pipes Personalizados
