@@ -6,7 +6,12 @@ import {  Component } from '@angular/core';
 })
 export class OrderComponent {
 
-  public itemToolbar: string = ''
+  public isUpperCase: boolean = false;
+
+
+  toogleUperCase():void{
+    this.isUpperCase = !this.isUpperCase;
+  }
 
 
 }

@@ -2,14 +2,17 @@
 <p-panel [showHeader]="false">
     <h1>Pipes Personalizados</h1>
     <p>
-       Pipes Personalizados - creados por {{'nosotros' | toogleCasepipe:true}}
+       Pipes Personalizados - creados por {{'nosotros' | toogleCasepipe:isUpperCase}}
     </p>
 </p-panel>
 
 
 <p-toolbar>
     <div class="p-toolbar-group-start">
-        <p-button label="ToogleCases"   icon="pi pi-search"/>
+        <p-button 
+            label="ToogleCases"   
+            icon="pi pi-search"
+            (onClick)="toogleUperCase()"/>
     </div>
 
     <div class="p-toolbar-group-end">
